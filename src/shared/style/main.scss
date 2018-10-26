@@ -1,0 +1,226 @@
+@import "_variables";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  color: $dark;
+  line-height: normal;
+}
+
+@media (min-width: $extra-large) {
+    .container {
+        max-width: 1400px;
+    }
+}
+.row {
+    margin: 0px;
+}
+.text-smallest {
+    font-size: 12px;
+}
+.text-smaller {
+    font-size: 16px;
+}
+.text-small {
+    font-size: 18px;
+}
+.text-medium {
+    font-size: 20px;
+}
+.text-normal {
+    font-size: 22px;
+}
+.text-big {
+    font-size: 28px;
+}
+.text-bigger {
+    font-size: 35px;
+}
+.text-biggest {
+    font-size: 45px;
+}
+.text-extra-big {
+    font-size: 70px;
+}
+@media (max-width: $large) {
+    .text-bigger {
+        font-size: 32px;
+    }  
+}
+@media (max-width: $medium) {
+    .text-bigger {
+        font-size: 30px;
+    }  
+}
+@media (max-width: $medium) {
+    .text-biggest {
+        font-size: 35px;
+    }  
+}
+@media (max-width: $medium) {
+    .text-extra-big {
+        font-size: 50px;
+    }  
+}
+@media (max-width: $medium) {
+    .col-padding-top {
+        padding-top: 30px;
+    }  
+}
+@media (min-width: $large) {
+    .text-padding-for-col {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+.text-padding-extra-big {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+@media (max-width: $large) {
+    .text-padding-extra-big {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+}
+@media (max-width: $medium) {
+    .text-padding-extra-big {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+.text-padding-bottom-extra-big {
+    padding-bottom: 130px;
+}
+@media (max-width: $large) {
+    .text-padding-bottom-extra-big {
+        padding-bottom: 100px;
+    }
+}
+@media (max-width: $medium) {
+    .text-padding-bottom-extra-big {
+        padding-bottom: 80px;
+    }
+}
+.text-padding-bottom-medium {
+    padding-bottom: 60px;
+}
+@media (max-width: $large) {
+    .text-padding-bottom-medium {
+        padding-bottom: 40px;
+    }
+}
+@media (max-width: $medium) {
+    .text-padding-bottom-medium {
+        padding-bottom: 30px;
+    }
+}
+.text-padding-bottom-small {
+    padding-bottom: 30px;
+}
+@media (max-width: $large) {
+    .text-padding-bottom-small {
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: $medium) {
+    .text-padding-bottom-small {
+        padding-bottom: 10px;
+    }
+}
+.text-column-align-center {
+    display: flex;
+    align-items: center;
+}
+.normal-button {
+    background-color: $green;
+    border: 0px;
+    color: $white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.normal-button-with-icon {
+    display: flex;
+    align-items: center;
+}
+.normal-button:focus, .normal-button:active {
+    outline: none !important;
+}
+.normal-image {
+    width: 100%;
+}
+.normal-image-shadow {
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 23px 5px rgba(0,0,0,0.18); 
+    box-shadow: 0px 0px 23px 5px rgba(0,0,0,0.18);
+}
+.small-icon {
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+@media (max-width: $extra-large) {
+    .small-icon {
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+    }
+}
+@media (max-width: $larger) {
+    .small-icon {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+    }
+}
+@media (max-width: $large) {
+    .small-icon {
+        width: 35px;
+        height: 35px;
+    }
+}
+.big-icon {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+.footer-margin {
+    margin: 0px 300px;
+}
+@media (max-width: $larger) {
+    .footer-margin {
+        margin: 0px 120px;
+    }
+}
+@media (max-width: $medium) {
+    .footer-margin {
+        margin: 0px 0px;
+    }
+}
+.footer-part {
+    padding-top: 50px;
+
+}
+@media (min-width: $medium) {
+    .footer-part-text{
+        text-align: right;
+    }
+}
+@media (max-width: $medium) {
+    .footer-part-text{
+        text-align: center;
+    }
+}
+@media (max-width: $medium) {
+    .footer-part-button{
+        justify-content: center;
+        display: flex;
+    }
+}
+.social-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}

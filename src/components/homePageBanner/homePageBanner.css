@@ -1,0 +1,18 @@
+.home-page-banner {
+  background: url("../../assets/home-page-banner-bg.png") 100% no-repeat;
+  background-size: contain; }
+  .home-page-banner .green-text {
+    color: #64c47a; }
+  .home-page-banner .text-bigger {
+    font-weight: 900; }
+  .home-page-banner .text-smaller {
+    font-weight: 500; }
+  .home-page-banner .text-small {
+    font-weight: 500; }
+
+@media (max-width: 768px) {
+  .home-page-banner {
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    background-size: 50%; } }

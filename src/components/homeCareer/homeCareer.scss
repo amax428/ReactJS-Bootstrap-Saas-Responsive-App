@@ -1,0 +1,27 @@
+@import 'shared/style/_variables';
+.home-career-page{
+    .text-bigger {
+        font-weight: 700;
+    }
+    .text-medium {
+        font-weight: 700;
+    }
+    .text-small {
+        font-weight: 500;
+    }
+    .col-12:first-child {
+        text-align: right;
+    }
+    @media (max-width: $medium) {
+        .col-12:first-child{
+            order: 2;
+            text-align: left;
+        }
+    }
+    @media (max-width: $large) and (min-width: $medium) {
+        .footer-part-text {
+            padding-left: 0px;
+        }
+    }
+
+}

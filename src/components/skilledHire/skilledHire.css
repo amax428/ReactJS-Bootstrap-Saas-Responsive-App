@@ -1,0 +1,18 @@
+.skilled-hire-page {
+  background: url("../../assets/skill-hire.jpg") 50% 30% no-repeat;
+  margin-top: -10px;
+  background-size: cover; }
+  .skilled-hire-page .opacity-background {
+    background: rgba(255, 255, 255, 0.88); }
+    .skilled-hire-page .opacity-background .skilled-hire-main-part {
+      padding-top: 50px;
+      padding-bottom: 50px; }
+  .skilled-hire-page .text-bigger {
+    font-weight: 700; }
+  .skilled-hire-page .text-big {
+    font-weight: 500; }
+  .skilled-hire-page .text-normal {
+    font-weight: 500; }
+  @media (max-width: 768px) {
+    .skilled-hire-page .normal-button {
+      width: min-content; } }

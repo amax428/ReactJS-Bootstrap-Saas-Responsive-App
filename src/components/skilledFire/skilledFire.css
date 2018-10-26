@@ -1,0 +1,29 @@
+.skilled-fire-page {
+  background-image: url("../../assets/real-proof.png");
+  background-color: #f9f9f9;
+  background-size: contain;
+  height: 40vw; }
+  .skilled-fire-page .text-bigger {
+    font-weight: 700; }
+  .skilled-fire-page .text-normal {
+    font-weight: 500; }
+  .skilled-fire-page .text-small {
+    font-weight: 500; }
+  @media (max-width: 768px) {
+    .skilled-fire-page .container {
+      padding-top: 50px; } }
+  @media (max-width: 576px) {
+    .skilled-fire-page .container {
+      padding-top: 80px; } }
+
+@media (max-width: 992px) {
+  .skilled-fire-page {
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position-y: 100%; } }
+
+@media (max-width: 768px) {
+  .skilled-fire-page {
+    min-height: 500px; }
+  .skilled-fire-page.text-column-align-center {
+    display: block; } }

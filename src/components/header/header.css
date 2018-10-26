@@ -1,0 +1,23 @@
+.header-page {
+  padding: 50px 100px;
+  font-weight: 500; }
+  .header-page a {
+    color: #636e72; }
+  .header-page .navbar-brand {
+    font-weight: 700;
+    color: #636e72; }
+  .header-page .nav-item {
+    border-radius: 10px;
+    margin-left: 20px; }
+    .header-page .nav-item .nav-link {
+      padding: 5px 25px; }
+  .header-page .nav-item:hover {
+    background-color: #64c47a; }
+    .header-page .nav-item:hover a {
+      color: #ffffff !important; }
+  .header-page .m-2 {
+    margin: 0px !important; }
+
+@media (max-width: 768px) {
+  .header-page {
+    padding: 30px 20px; } }

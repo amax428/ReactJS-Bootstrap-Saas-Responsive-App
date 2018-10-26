@@ -1,0 +1,40 @@
+.home-say-page .text-bigger {
+  font-weight: 700; }
+
+.home-say-page .carousel-image {
+  width: 100%; }
+
+.home-say-page .col-padding-top {
+  padding-bottom: 30px; }
+
+.home-say-page .carousel-indicators {
+  align-items: center;
+  position: unset;
+  right: unset;
+  bottom: unset;
+  margin-left: unset;
+  margin-right: unset;
+  float: right;
+  margin-top: -20px;
+  justify-content: end;
+  padding-left: 20px; }
+  .home-say-page .carousel-indicators li {
+    background-color: #c2c2c2;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-left: 7px;
+    margin-right: 7px; }
+  .home-say-page .carousel-indicators li.active {
+    width: 13px;
+    height: 13px; }
+
+.home-say-page .text-big {
+  font-weight: 500; }
+
+.home-say-page .text-small {
+  font-weight: 500; }
+
+@media (max-width: 768px) {
+  .home-say-page .carousel-indicators {
+    justify-content: center; } }

@@ -1,0 +1,41 @@
+@import 'shared/style/_variables';
+.home-special-page{
+    background: url('../../assets/special.jpg') 50% 30% no-repeat;
+    margin-top: -10px;
+    background-size: cover;
+    .opacity-background{
+        background: rgba(255, 255, 255, 0.88);
+        .skilled-hire-main-part {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    }
+    .text-bigger {
+        font-weight: 700;
+    }
+    .text-big {
+        font-weight: 500;
+    }
+    .text-normal {
+        font-weight: 500;
+    }
+    .footer-part-button {
+        display: flex;
+        justify-content: center;
+    }
+    .text-big {
+        line-height: 2;
+    }
+    @media (max-width: $medium) {
+        .text-big{
+            line-height: normal;
+        }
+        .text-padding-bottom-small {
+            padding-bottom: 30px;
+        }
+    }
+    .social-icon {
+        width: 35px;
+        height: 35px;
+    }
+}

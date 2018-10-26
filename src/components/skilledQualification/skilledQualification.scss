@@ -1,0 +1,30 @@
+@import 'shared/style/_variables';
+
+.skilled-qualification-page {
+    .question-area {
+        padding-bottom: 30px;
+        align-items: center;
+    }
+    .text-bigger {
+        font-weight: 700;
+    }
+    .text-small {
+        font-weight: 400;
+    }
+    .text-biggest {
+        font-weight: 700;
+        color: $black;
+    }
+    .text-normal-b {
+        font-weight: 700;
+    }
+    .text-normal-i {
+        font-style: italic; 
+        color: $black;
+    }
+    @media (max-width: $medium) {
+        .normal-button {
+            width: min-content;
+        }
+    }
+}

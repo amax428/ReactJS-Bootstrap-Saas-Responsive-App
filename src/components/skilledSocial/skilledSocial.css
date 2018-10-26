@@ -1,0 +1,31 @@
+.skilled-social-page {
+  background-image: url("../../assets/social-proof.png");
+  background-size: contain;
+  height: 40vw; }
+  .skilled-social-page .text-bigger {
+    font-weight: 700; }
+  .skilled-social-page .text-normal {
+    font-weight: 500; }
+  .skilled-social-page .text-small {
+    font-weight: 500; }
+  @media (max-width: 768px) {
+    .skilled-social-page .text-align {
+      text-align: right; } }
+  @media (max-width: 768px) {
+    .skilled-social-page .container {
+      padding-top: 50px; } }
+  @media (max-width: 576px) {
+    .skilled-social-page .container {
+      padding-top: 80px; } }
+
+@media (max-width: 992px) {
+  .skilled-social-page {
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position-y: 100%; } }
+
+@media (max-width: 768px) {
+  .skilled-social-page {
+    min-height: 500px; }
+  .skilled-social-page.text-column-align-center {
+    display: block; } }

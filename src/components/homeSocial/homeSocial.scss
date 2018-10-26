@@ -1,0 +1,17 @@
+@import 'shared/style/_variables';
+.home-social-page{
+    .text-bigger {
+        font-weight: 700;
+    }
+    .text-medium {
+        font-weight: 700;
+    }
+    .text-small {
+        font-weight: 500;
+    }
+    @media (max-width: $large) and (min-width: $medium) {
+        .footer-part-text {
+            padding-left: 0px;
+        }
+    }
+}

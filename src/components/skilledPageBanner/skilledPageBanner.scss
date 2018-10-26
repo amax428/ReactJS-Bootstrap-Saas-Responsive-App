@@ -1,0 +1,23 @@
+@import 'shared/style/_variables';
+
+.skilled-page-banner {
+    background-image: url('../../assets/skill-page-banner.png');
+    background-size: contain;
+    height: 40vw;
+    .text-bigger {
+        font-weight: 900;
+    }
+    .text-smaller {
+        font-weight: 500;
+    }
+    .text-small {
+        font-weight: 500;
+    }
+}
+@media (max-width: $medium) {
+    .skilled-page-banner {
+        background-position-y: 100%;
+        background-repeat: no-repeat;
+        min-height: 400px;
+    }
+}

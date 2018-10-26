@@ -1,0 +1,29 @@
+.skilled-offer-page {
+  background-image: url("../../assets/bg-skill.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+  margin-top: -5px; }
+  .skilled-offer-page .text-biggest {
+    font-weight: 700; }
+  .skilled-offer-page .text-bigger {
+    font-weight: 700; }
+  .skilled-offer-page .text-medium {
+    font-weight: 700; }
+  .skilled-offer-page .offer-content .text-column-align-center {
+    justify-content: center; }
+  @media (max-width: 768px) {
+    .skilled-offer-page .col-padding-top {
+      padding-top: 50px; } }
+  @media (max-width: 768px) {
+    .skilled-offer-page .text-padding-bottom-small {
+      padding-bottom: 20px; }
+    .skilled-offer-page .reason-item {
+      padding-bottom: 20px; } }
+  @media (max-width: 576px) {
+    .skilled-offer-page .text-medium {
+      font-size: 16px; } }
+  @media screen and (max-width: 992px) and (min-width: 768px) {
+    .skilled-offer-page .right-part {
+      padding-right: 0px;
+      padding-left: 0px; } }

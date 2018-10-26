@@ -1,0 +1,28 @@
+.home-special-page {
+  background: url("../../assets/special.jpg") 50% 30% no-repeat;
+  margin-top: -10px;
+  background-size: cover; }
+  .home-special-page .opacity-background {
+    background: rgba(255, 255, 255, 0.88); }
+    .home-special-page .opacity-background .skilled-hire-main-part {
+      padding-top: 50px;
+      padding-bottom: 50px; }
+  .home-special-page .text-bigger {
+    font-weight: 700; }
+  .home-special-page .text-big {
+    font-weight: 500; }
+  .home-special-page .text-normal {
+    font-weight: 500; }
+  .home-special-page .footer-part-button {
+    display: flex;
+    justify-content: center; }
+  .home-special-page .text-big {
+    line-height: 2; }
+  @media (max-width: 768px) {
+    .home-special-page .text-big {
+      line-height: normal; }
+    .home-special-page .text-padding-bottom-small {
+      padding-bottom: 30px; } }
+  .home-special-page .social-icon {
+    width: 35px;
+    height: 35px; }

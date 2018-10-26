@@ -1,0 +1,47 @@
+@import 'shared/style/_variables';
+.skilled-offer-page{
+    background-image: url('../../assets/bg-skill.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    margin-top: -5px;
+    .text-biggest {
+        font-weight: 700;
+    }
+    .text-bigger {
+        font-weight: 700;
+    }   
+    .text-medium {
+        font-weight: 700;
+    }
+    .offer-content {
+        .text-column-align-center {
+            justify-content: center;
+        }
+    }
+    @media (max-width: $medium) {
+        .col-padding-top {
+            padding-top: 50px;
+        }
+    }
+    @media (max-width: $medium) {
+        .text-padding-bottom-small {
+            padding-bottom: 20px;
+        }
+        .reason-item{
+            padding-bottom: 20px;
+        }
+    }
+    @media (max-width: $small) {
+        .text-medium {
+            font-size: 16px;
+        }
+    }
+    @media screen and (max-width: $large) and (min-width: $medium) {
+        .right-part {
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+    }
+
+}

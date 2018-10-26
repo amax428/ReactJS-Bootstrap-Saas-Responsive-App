@@ -1,0 +1,16 @@
+.skilled-page-banner {
+  background-image: url("../../assets/skill-page-banner.png");
+  background-size: contain;
+  height: 40vw; }
+  .skilled-page-banner .text-bigger {
+    font-weight: 900; }
+  .skilled-page-banner .text-smaller {
+    font-weight: 500; }
+  .skilled-page-banner .text-small {
+    font-weight: 500; }
+
+@media (max-width: 768px) {
+  .skilled-page-banner {
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    min-height: 400px; } }
